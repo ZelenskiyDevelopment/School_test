@@ -1,0 +1,21 @@
+<div id="coursrs-wrapper">
+  <div class="table-header row">
+    <div class="col-md-2 text-center" ng-click="sort('title')">Title</div>
+    <div class="col-md-2 text-center" ng-click="sort('availableTime')">Available time</div>
+    <div class="col-md-2 text-center" ng-click="sort('description')">Description</div>
+    <div class="col-md-2 text-center" ng-click="sort('cost')">Cost</div>
+    <div class="col-md-2 text-center" ng-click="sort('teacher')">Teacher</div>
+    <div class="col-md-2 text-center">Actions</div>
+  </div> <!-- .table-header -->
+  <div class="course row" ng-repeat="course in courses">
+    <div class="col-md-2">{{course.title}}</div>
+    <div class="col-md-2 text-center">{{course.availableTime}}</div>
+    <div class="col-md-2">{{course.description}}</div>
+    <div class="col-md-2 text-center">{{course.cost}}</div>
+    <div class="col-md-2">{{course.teacher}}</div>
+    <div class="col-md-2 actions">
+      <a class="btn btn-default" ui-sref="courses.course({id: course.id})">View</a>
+      <button class="btn btn-success" ng-click="enroll(course)">Enroll</button>
+    </div>
+  </div>
+</div> <!-- #courses-wrapper -->

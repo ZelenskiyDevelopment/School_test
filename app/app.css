@@ -1,0 +1,26 @@
+h1 {
+  margin-bottom: 40px;
+}
+
+.table-header {
+  border-bottom: 2px solid #ccc;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.table-header div {
+  cursor: pointer;
+}
+
+.course {
+  height: 60px;
+  line-height: 60px;
+}
+
+.course-details {
+  margin: 20px 0;
+}
+
+.course-description {
+  padding: 15px;
+}

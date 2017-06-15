@@ -1,0 +1,7 @@
+[
+  {"id":1, "title":"AngularJS", "teacher":"Artem Mudrak", "availableTime": "9:00 - 15:00", "cost": 400, "description": "Test course"},
+  {"id":2, "title":"NodeJS + ExpressJS", "teacher":"John Doe", "availableTime": "10:00 - 16:00", "cost": 700, "description": "Test course"},
+  {"id":3, "title":"Yii2", "teacher":"Curt Kobain", "availableTime": "8:00 - 15:00", "cost": 500, "description": "Test course"},
+  {"id":4, "title":"HTML + CSS", "teacher":"Michael Jackson", "availableTime": "11:00 - 18:00", "cost": 200, "description": "Test course"},
+  {"id":5, "title":"ReactJS", "teacher":"Clifford Lee Burton", "availableTime": "9:00 - 16:00", "cost": 500, "description": "Test course"}
+]

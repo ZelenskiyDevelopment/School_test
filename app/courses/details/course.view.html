@@ -1,0 +1,17 @@
+<button class="btn btn-success pull-right" ng-click="enroll(course)">Enroll</button>
+<h2>{{course.title}}</h2>
+<div class="row course-details">
+  <div class="col-md-4">
+    <strong>Teacher: </strong>
+    <span>{{course.teacher}}</span>
+  </div>
+  <div class="col-md-4">
+    <strong>Available time: </strong>
+    <span>{{course.availableTime}}</span>
+  </div>
+  <div class="col-md-4">
+    <strong>Cost: </strong>
+    <span>{{course.cost}}$</span>
+  </div>
+</div>
+<p class="course-description">{{course.description}}</p>
